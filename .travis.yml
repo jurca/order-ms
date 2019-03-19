@@ -9,7 +9,7 @@ script:
 - npm run test
 deploy:
   provider: gae
-  project: order-ms-227100
+  project: order-ms-234921
   keyfile: gce.json
   skip_cleanup: true
   verbosity: debug
